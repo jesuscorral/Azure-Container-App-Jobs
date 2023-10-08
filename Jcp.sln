@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D00A51A2-A632-4F08-B4AD-D373FBCBAD1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jcp.Sender", "src\Jcp.Sender\Jcp.Sender.csproj", "{9E217BD9-3624-4F04-9101-DAE37AFBC6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jcp.Receiver", "src\Receiver\Jcp.Receiver.csproj", "{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E217BD9-3624-4F04-9101-DAE37AFBC6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E217BD9-3624-4F04-9101-DAE37AFBC6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E217BD9-3624-4F04-9101-DAE37AFBC6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E217BD9-3624-4F04-9101-DAE37AFBC6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E217BD9-3624-4F04-9101-DAE37AFBC6CC} = {D00A51A2-A632-4F08-B4AD-D373FBCBAD1C}
+		{9F556D4A-3D3C-4812-9C3B-501D9C98EEAB} = {D00A51A2-A632-4F08-B4AD-D373FBCBAD1C}
+	EndGlobalSection
+EndGlobal
